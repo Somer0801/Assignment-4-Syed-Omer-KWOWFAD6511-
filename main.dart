@@ -206,7 +206,7 @@ void main() {
   ];
   for (int i = 1; i < numList.length; i++) {
     if (numList.contains(i) == false) {
-      print(i);
+      print("${i} is missing from the list");
     }
   }
 
@@ -221,7 +221,7 @@ void main() {
       greater = unsortedList[i];
     }
   }
-  print(greater);
+  print("The greatest number in the list is ${greater}");
 
 //For Samllest
 
@@ -231,7 +231,7 @@ void main() {
       small = unsortedList[i];
     }
   }
-  print(small);
+  print("The samllest number in the list is ${small}");
 
 //14. Let, int number = 18;
 // Find all pairs of an integer array whose sum is equal to a given number?
